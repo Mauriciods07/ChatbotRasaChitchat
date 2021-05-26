@@ -1,0 +1,158 @@
+version: "2.0"
+
+nlu:
+- intent: administrador
+  examples: |
+    - Buenas tardes, me pregunto cuál es el link para la entrevista, creo que no lo mandaron y ya es mi turno :c Soy Carlos Giovanni Martínez Gutiérrez
+    - buenas tardes, disculpe, tengo una duda. Al terminar el forms para el reclutamiento, debo recibir alguna notificación al correo que registré? lo terminé hace unos días pero no me apareció ningún tipo de confirmación de que la encuesta fue contestada con exito por correo, me apareció la página de "finalizado" al final del registro pero nada por correo
+    - Quisiera hablar con un administrador
+    - No entiendí lo que dijiste
+    - ¿Eso qué tiene que ver?
+    - No entiendo
+    - No sé a qué te refieres
+    - ¿Me pueden ayudar?
+    - ¿Puedo hablar con alguien?
+    - Creo que es un error
+    - Eso no tiene sentido
+    - ¿Por qué dices eso?
+    - ¿Cómo?
+    - ¿Qué quisite decir?
+    - Eso no fue lo que pregunté
+    - Esa no era mi duda
+    - ¿Qué?
+    - ?
+    - Tengo un problema
+
+- intent: afirmar
+  examples: |
+    - sí
+    - si
+    - claro
+    - por supuesto
+    - así es
+    - exacto
+    - correcto
+
+- intent: despedir
+  examples: |
+    - buenas noches
+    - chao
+    - nos vemos
+    - adiós
+    - buena noche
+    - bye
+    - hasta luego
+    - tenga un buen día
+    - hasta pronto
+    - ahí nos vemos
+    - adios
+
+- intent: gracias
+  examples: |
+    - gracias
+    - vale, gracias
+    - de acuerdo
+    - esta bien
+    - me parece bien
+
+- intent: negar
+  examples: |
+    - no
+    - n
+    - nunca
+    - no lo creo
+    - no me gusta
+    - de ninguna forma
+    - no en realidad
+
+- intent: chitchat/reclutamiento
+  examples: |
+    - ¿Tendrán reclutamiento próximamente?
+    - Revise el contenido de su página y me parecen muy interesantes los proyectos que desarrollan. Me gustaría participar en un futuro (tengo entendido que por el momento ya cerraron el sistema para el reclutamiento) y me gustaría saber que requisitos hay para entrar (horarios, créditos, etc.) 
+    - siguen buscando personas?
+    - siguen buscando personas?
+    - Cómo me puedo registrar?
+    - tienes la liga de registro?
+    - cuales son las fechas para ingresar?
+    - cuál es el ultimo día de registro?
+    - A partir de que día me puedo registrar?
+    - El reclutamiento se hace mensualmente?
+    - me puedes proporcionar el link para entrar?
+    - puedo entrar el siguiente semestre?
+    - ya pasó el período de registro?
+    - aún me puedo registrar para el reclutamiento?
+    - hay un límite de horario para el período de reclutamiento?
+    - tengo un problema, parece que el enlace que tengo para registrarme está mal, puedes enviarme el correcto?
+    - oye, acabo de ver la convocatoria y me interesa ingresar, cuándo son las fechas de registro?
+    - aun estoy a tiempo para el reclutamiento?
+    - Hola, quisiera formar parte de SIAFI, qué necesito hacer?
+    - estaba viendo en la convocatoria las fechas de reclutamiento, son correctas?
+
+- intent: chitchat/registro
+  examples: |
+    - si no tengo celular le pongo puros ceros al numero que me piden en el registro??
+    - ¿Dónde puedo registrarme?
+    - ¿Qué tengo que hacer para el registro?
+    - ¿En dónde puedo registrarme?
+    - ¿Cómo me registro?
+    - Necesito ayuda con el registro
+    - ¿Cuál es el link de registro?
+    - ¿Cuál es la liga para registrarme?
+    - ¿Qué información necesito para hacer el registro?
+    - No me deja registrarme
+    - No puedo hacer mi registro
+    - Quiero información del registro
+    - ¿Dónde está la página de registro?
+    - ¿Tengo que registrarme?
+
+- intent: chitchat/requisito
+  examples: |
+    - Buen día. ¿Cómo puedo formar parte de esta sociedad?
+    - Hola, buenos días. Tengo una duda con respecto a su organización, ¿qué beneficios y obligaciones hay al momentos de ingresar?
+    - Y en caso de ser aceptado que papel se adopta dentro de esta organización, por ejemplo; te encargas de ayudar con las conferencias, participas en los proyectos, colaboradoras en la difusión, etc.
+    - Hola 🙂 Soy estudiante de la lic. de Física, tengo conocimientos básicos sobre la IA. Quería preguntar sobre el reclutamiento que están haciendo, dado que también tengo un trabajo de medio tiempo, quisiera saber si tienen horarios fijos en dónde se reúnen, o cuáles son los planes de trabajo en los proyectos que mencionan en los videos. Gracias
+    - Buenas noches, me interesa el proyecto de la sociedad de inteligencia artificial, que necesito para ser parte de ella?
+    - excelente, muchas gracias! algún consejo para el reclutamiento? 
+    - Hola, soy estudiante de periodismo en la FCPyS, estoy interesada en participar, pero no sé si mi perfil está considerado.
+    - Hola, acabo de ver su convocatoria, cuáles son los requisitos de ingreso?
+    - y sobre los requisitos?
+    - y para entrar?
+    - y para formar parte? qué hay que hacer?
+    - suena bien, crees que me pudieras proporcionar los requisitos de ingreso?
+    - la verdad no lo sé, pero de momento estaría bien si me puedes indicar qué necesito para entrar
+    - la verdad sí estoy algo dudoso, no sé si cumplo con lo necesario
+    - creo que no tengo tantos conocimientos en el area
+    - Apenas voy en primer semestre y no sé si puedo entrar
+    - no tuve buenos profesores y siento que mis conocimientos no son tan buenos
+    - hola, hay algún problema para ingresar si vengo de física
+    - estoy estudiando mi ultimo semestre de RI, no sé si sea un problema
+
+- intent: saludo
+  examples: |
+    - Disculpa la molestia
+    - Buen día
+    - Buena tarde
+    - buenas
+    - Buenos días
+    - Buenas tardes
+    - Buenas noches
+    - Que tal
+    - Hola, chicos
+    - buena noche
+    - hey dude!
+    - wenas
+    - ammm hola?
+    - Hola, soy Anita
+    - Disculpa
+    - Hola!
+    - Oye
+    - Qué onda!
+    - Hey!
+    - Me da gusto saludarlos
+
+- intent: bot_challenge
+  examples: |
+    - ¿eres un bot?
+    - ¿eres un humano?
+    - estoy hablando con un bot?
+    - estoy hablando con un humano?
