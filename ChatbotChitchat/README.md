@@ -1,8 +1,3 @@
-# Chatbot Nuevo
+# Chatbot ChitChat
 Este Chatbot ha sido entrenado con seis intents:
-- administrador
-- despedir
-- reclutamiento
-- registro
-- requisito
-- saludo
+- Todos los intents
