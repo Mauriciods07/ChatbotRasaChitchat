@@ -33,3 +33,35 @@ rules:
   steps:
   - intent: chitchat
   - action: utter_chitchat
+
+
+
+
+
+
+- rule: Saludar cuando aparece el usuario y pregunta por el reclutamiento
+#  conversation_start: True
+  steps:
+  - intent: saludo+reclutamiento
+  - action: utter_saludo
+  #- action: utter_instruccion
+  - action: utter_chitchat/reclutamiento
+
+- rule: Saludar cuando aparece el usuario y pregunta por el registro
+#  conversation_start: True
+  steps:
+  - intent: saludo+registro
+  - action: utter_saludo
+  #- action: utter_instruccion
+  - action: utter_chitchat/registro
+
+- rule: Saludar cuando aparece el usuario y pregunta por los requisitos
+#  conversation_start: True
+  steps:
+  - intent: saludo+requisito
+  - action: utter_saludo
+  #- action: utter_instruccion
+  - action: utter_chitchat/requisito
+
+
+

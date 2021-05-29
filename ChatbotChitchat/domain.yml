@@ -1,0 +1,216 @@
+version: "2.0"
+
+intents:
+  - administrador
+  - afirmar
+  - despedir
+  - duda
+  - gracias
+  - negar
+  - chitchat/reclutamiento
+  - chitchat/registro
+  - chitchat/requisito
+  - saludo
+  - bot_challenge
+  - chitchat
+  - saludo+reclutamiento
+  - saludo+registro
+  - saludo+requisito
+  - chitchat/aprender
+  - chitchat/contenido
+  - chitchat/egresados
+  - chitchat/evento
+  - chitchat/experiencia
+  - chitchat/felicitación
+  - chitchat/habilidades
+  - chitchat/interés
+  - chitchat/miembros
+  - chitchat/proyectos
+  - chitchat/siafi
+
+responses:
+  utter_despedir:
+  - text: "Esperamos haberte ayudado. Saludos."
+  - text: "Estamos a tus órdenes!"
+  - text: "Estamos para servir."
+  - text: "Cualquier duda, no dudes en escribirnos!"
+  - text: "Si tienes más dudas, no dudes en contactarnos."
+  - text: "Estamos para ayudarnos."
+  - text: "Te estaremos esperando!"
+  - text: "Sigamos aprendiendo juntos!"
+
+  utter_duda:
+  - text: "Adelante!"
+  - text: "Te leo..."
+  - text: "Adelante!"
+  - text: "Dime"
+  - text: "¿Qué pasa?"
+
+  utter_pregunta:
+  - text: "¿En qué te puedo ayudar?"
+
+  utter_soyunrobot:
+  - text: "Soy un chatbot diseñado por SIAFI con el objetivo de responder los mensajes de sus redes sociales. Aunque, a largo plazo, nadie sabe de qué seré capaz. Por ahora, sólo soy un prototipo :)"
+
+  utter_informacion:
+  - text: "Claro, SIAFI está reclutando. Sólo tienes que ser alumno activo de la UNAM o egresado con un plan de titulación. ¡Sólo llena nuestro formulario! www.formulario.com"
+
+  utter_mas_ayuda:
+  - text: "¿Puedo hacer algo más por ti?"
+
+  utter_administrador:
+  - text: "El llenado de formulario tiene como consecuente una notificación. En un momento, un Administrador verificará tu llenado. Por favor, escribe tu nombre completo."
+  - text: "En un momento, un administrador tomará el chat. Sentimos las molestias."
+  - text: "Al parecer ha habido un error. En un momento, un administrador tomará el chat. Sentimos las molestias."
+  - text: "En un momento, un administrador tomará el chat."
+  - text: "Para mejorar la comunicación, un administrador tomará el chat. Sentimos las molestias."
+
+  utter_chitchat/aprender:
+  - text: "Si te interesa aprender más, puedes revisar nuestros cursos en: [Información]"
+  - text: "Los recursos de las pláticas los podrás encontrar en [información]"
+  - text: "Nuestra bibliografía sugerida es [bibliografía]. Aparte ofrecemos cursos, puedes checarlos en el siguiente link [cursos]"
+
+  utter_chitchat/contenido:
+  - text: "Los recursos a publicar serán en su mayoría informativos, tales como: infografías, papers, convocatorias, etc, todo el contenido estará relacionado a la IA."
+  - text: "Elegimos el mejor contenido, pensando en ustedes"
+  - text: "En SIAFI, contamos con un grupo especializado en manejo de redes sociales."
+  - text: "En SIAFI semestralmente estamos en busca de nuevo talento. Serías de gran apoyo!"
+  - text: "El grupo encargado de redes sociales se encarga de decidir la frecuencia y publicaciones, así como administrar otros aspectos de redes."
+  - text: "Puedes ayudarnos a generar nuevo contenido y administrar la página. El período de registro es semestral, piénsalo!"
+
+  utter_chitchat/egresados:
+  - text: "Los estudiantes y egresados con proceso de titulación pueden formar parte de la sociedad. Los requisitos son [información]"
+  - text: "Los estudiantes de cualquier nivel y egresados con proceso de titulación pueden formar parte de la sociedad. Los requisitos son [información]"
+  - text: "Los estudiantes y egresados con proceso de titulación de la UNAM pueden formar parte de la sociedad. Los requisitos son [información]"
+  - text: "Lamentablemente, no. Sólo los estudiantes y egresados con proceso de titulación de la UNAMpueden formar parte de la sociedad."
+  - text: "Sí, los estudiantes y egresados con proceso de titulación de la UNAM pueden formar parte de la sociedad. Los requisitos son [información]"
+  - text: "Sí, los estudiantes activos y egresados con proceso de titulación de la UNAM pueden formar parte de la sociedad. Los requisitos son [información]"
+
+  utter_chitchat/evento:
+  - text: "La liga de registro para [evento] es [información]"
+  - text: "El calendario de eventos es [calendario]"
+  - text: "Realizamos eventos de difusión abiertos al público en general. Puedes consultar el calendario en [calendario]"
+
+  utter_chitchat/experiencia:
+  - text: "No se necesita conocimiento o experiencia previa para formar parte de la sociedad, es deseable que se tenga algo previo, pero no es obligatorio."
+  - text: "Nosotros fomentamos el crecimiento de los integrantes en el campo de la IA."
+  - text: "Principalmente usamos Python para programar, pero no se necesita conocimiento o experiencia previa para formar parte de la sociedad, es deseable que se tenga algo previo, pero no es obligatorio. Aquí fomentamos el crecimiento de los integrantes en el campo de la IA."
+  - text: "No se necesita conocimiento o experiencia previa para formar parte de la sociedad, es deseable que se tenga algo previo, pero no es obligatorio."
+
+  utter_chitchat/felicitación:
+  - text: "Gracias."
+  - text: "Muchas gracias, nos esforzamos por mejorar cada día."
+  - text: "Gracias! nuestro objetivo es impulsar el desarrollo de nuevas teconologías que ayuden a todos"
+  - text: "Gracias! nuestros resultados son el reflejo del esfuerzo de cada miembro."
+
+
+  utter_chitchat/habilidades:
+  - text: "Dependiendo de a qué núcleo te gustaría entrar pediríamos distintas habilidades, pero lo fundamental es trabajo en equipo, responsabilidad y muchas ganas de aprender y trabajar."
+  - text: "En Organización, se lleva el orden y se mantiene la estructura de la sociedad; para ello, se requieren habilidades de comunicación. Cabe aclarar que estas son deseables, más no son rigurosamente obligatorias.¿Cuentas con alguna de estas habilidades? ¡Postúlate para ser parte de nosotros!"
+  - text: "En Difusión, se lleva a cabo la creación de material de apoyo (como infografías o videos) para que sea publicado en nuestras redes sociales; para ello, se requieren habilidades relacionadas con la creatividad. Cabe aclarar que estos son deseables, más no son rigurosamente obligatorios.¿Cuentas con alguna de estas habilidades? ¡Postúlate para ser parte de nosotros!"
+  - text: "En Proyectos, se realizan los proyectos que se tienen en la sociedad; para ello, se requieren habilidades diversas con respecto al proyecto en el que vayas a participar, tales como programación, conocimiento de IA, etc. Cabe aclarar que estos son deseables, más no son rigurosamente obligatorios.¿Cuentas con alguna de estas habilidades? ¡Postúlate para ser parte de nosotros!"
+  - text: "Existen tres núcleos en la sociedad. Organización, en donde se lleva el orden y se mantiene la estructura de la sociedad; para ello, se requieren habilidades de comunicación. Difusión, en donde se lleva a cabo la creación de material de apoyo (como infografías o videos) para que sea publicado en nuestras redes sociales; para ello, se requieren habilidades relacionadas con la creatividad. Proyectos, en donde se realizan los proyectos que se tienen en la sociedad; para ello, se requieren habilidades diversas con respecto al proyecto en el que vayas a participar, tales como programación, conocimiento de IA, etc. Cabe aclarar que estas son deseables, más no son rigurosamente obligatorias.¿Cuentas con alguna de estas habilidades? ¡Postúlate para ser parte de nosotros!"
+
+  utter_chitchat/interés:
+  - text: "Adelante!"
+  - text: "Anímate!"
+  - text: "Necesitamos gente como tú!! Adelante!!"
+  - text: "Siempre estamos abiertos a nuevas ideas y nuevos colegas. Anímate!!"
+  - text: "Nuestros proyectos se deciden por la comunidad. Ayúdanos formando parte de ella!!"
+  - text: "En SIAFI te estamos esperando!!"
+  - text: "No somos exigentes en cuanto al horario de trabajo. Piénsalo!"
+
+  utter_chitchat/miembros:
+  - text: "No, sólo los miembros de la sociedad pueden participar en las actividades. Te invitamos a que conozcas los talleres y cursos de la sociedad."
+  - text: "Los miembros participan en actividades de difusión, proyectos u organización"
+  - text: "El periodo de reclutamiento es []"
+  - text: "Los miembros de proyectos trabajan en [información de proyectos]"
+  - text: "Los miembros de difusión se encargaan de las redes sociales, publicación de infografías y eventos futuros."
+  - text: "Los miembros en organización se encargan del manejo de los recursos de la sociedad, así como las aianzas con empresas etc"
+  - text: "Actualmente contamos con [número de miembros] miembros"
+  - text: "Sí, el periodo de reclutamiento es []"
+  - text: "No, cualquier alumno de la UNAM puede ser miembro."
+  - text: "Ninguno, solo muchas ganas de trabajar y de aprender."
+  - text: "Sí, cualquier alumno de la UNAM puede ser miembro."
+  - text: "No, solo estuadiantes de la UNAM pueden ser miembros."
+  - text: "Sí, solo se necesitan muchas ganas de trabajar y de aprender."
+  - text: "No, solo alumnos de la UNAM pueden ser miembros."
+
+  utter_chitchat/proyectos:
+  - text: "Nuestros proyectos son: 
+         - Visión computacional por drone 
+         - Chatbot
+         - Página web 
+         - Sistema de seguridad integral"
+  - text: "Los proyectos en los que estamos trabajando ahora son:
+         - Visión computacional por drone 
+         - Chatbot
+         - Página web 
+         - Sistema de seguridad integral"
+  - text: "Nuestro proyecto estrella en este momento es el Chatbot"
+
+  utter_chitchat/reclutamiento:
+  - text: "El período de reclutamiento es a principios del próximo semestre. Quédate atento a nuestras redes sociales, ¡ahí publicaremos la información cuando llegue el momento!"
+  - text: "El período de reclutamiento se publicará a inicios del próximo semestre."
+  - text: "El período de reclutamiento será a inicios del próximo semestre."
+#  - text: "Para registrarte necesitas ingresar a nuestras redes sociales a inicios del próximo semestre para conocer toda la información necesaria."
+#  - text: "El link para registrarte es: [Liga]"
+#  - text: "El período de reclutamiento abarca de: [Información] a [Información]"
+#  - text: "El período de reclutamiento finaliza el día: [Información]"
+  - text: "El período de reclutamiento inicia a principios del próximo semestre. ¡Revisa nuestras redes sociales para conocer toda la información cuando llegue el momento!"
+  - text: "El período de reclutamiento se realiza semestralmente. Aún no comienza el proceso, pero está próximo. No olvides revisar nuestras redes sociales para conocer más."
+  - text: "El proceso de reclutamiento se realiza semestralmente. La convocatoria se publica aquí y en la página oficial de SIAFI, tanto de Facebook como de Instagram."
+
+  utter_chitchat/registro:
+  - text: "La liga de registro para el registro es https://i.imgur.com/nGF1K8f.jpg"
+  - text: "El link de registro es https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_chitchat/requisito:
+  - text: "Sólo necesitas tener ganas de trabajar. Puedes consultar nuestros cursos en nuestra página de Facebook e Instagram."
+  - text: "El período de reclutamiento comienza el próximo semestre y los requisitos son estar al pendiente de nuestras redes sociales y tener un gran entusiasmo por integrarte a la sociedad."
+  - text: "El período de reclutamiento es el próximo semestre. Los horarios los definimos de acuerdo a tu disponibilidad."
+  - text: "Los requisitos son estar al pendiente de nuestras redes sociales y tener un gran entusiasmo por integrarte a la sociedad. Sólo necesitas tener ganas de trabajar. Puedes consultar nuestros cursos en nuestra página de Facebook e Instagram."
+  - text: "Los requisitos para ingresar a SIAFI son estar al pendiente de nuestras redes sociales y tener un gran entusiasmo por integrarte a la sociedad."
+  - text: "No te preocupes tanto por lo que tengas. Contamos con diversos cursos y nos apoyamos mutuamente. Algunos conocimientos que recomendamos son una introducción a Redes Neuronales, Procesamiento de Lenguaje Natural y distintas habilidades de programación."
+  - text: "Para poder ingresar a SIAFI necesitas estar al pendiente de nuestras redes sociales y tener un gran entusiasmo por integrarte a la sociedad.."
+  - text: "Con mucho gusto. Para poder ingresar a SIAFI necesitas estar al pendiente de nuestras redes sociales y tener un gran entusiasmo por integrarte a la sociedad."
+  - text: "Anímate! Sólo necesitas ganas de aprender y estar al pendiente de nuestras redes sociales."
+
+  utter_chitchat/siafi:
+  - text: "text: SIAFI tiene sus orígenes en la Universidad nacional autónoma de México, sus metas son generar personas capaces de trabajar con algoritmos que impulsen la inteligencia artificial. Nos encontramos en el edificio X de la Facultad de Ingeniería de la UNAM"
+  - text: "SIAFI es una sociedad de estudiantes de la UNAM que estan interesados en desarrollar proyectos y difundir contenido de Inteligencia Artificial."
+  - text: "SIAFI inicio en el año 2020 por los estudiantes: Andrés, Sebastián, Parra, Chyntia, Alejandro"
+  - text: "Puedes conocer los cursos y talleres en la página de SIAFI https://www.facebook.com/UNAM.SIAFI"
+  - text: "Los miembros de SIAFI somos estudiantes de distintas facultades, puedes ver a los miembros en la página https://www.facebook.com/UNAM.SIAFI"
+  - text: "SIAFI te ofrece participar en proyectos, conferencias y difusión de la Inteligencia Artificial que te puede serivr como experencia comprobable a la hora de buscar trabajo, además podrás hacer uso de las instalaciones de la facultad."
+  - text: "SIAFI ha desarrollado y sigue desarrollando muchos proyectos, puedes revisar más información en las redes sociales o en nuestra página."
+  - text: "SIAFI es una sociedad perteneciente a la facultad de ingeniería, pero puede ingresar cualquier estudiante de la UNAM con interés en Inteligencia Artificial."
+  - text: "Para conocer a los miembros de SIAFI puedes revisar la página https://www.facebook.com/UNAM.SIAFI"
+  - text: "SIAFI son las siglas de Sociedad de Inteligencia Artificial de la Facultad de Ingeniería"
+  - text: "SIAFI tiene como misón Ser una sociedad de alumnos actualizada en temas de IA. Impartir y realizar cursos, talleres y actividades para la comunidad universitaria y el público en general. Desarrollar proyectos que contribuyan al avance tecnológico y al bienestar social. Y participar en competencias estudiantiles representando a la UNAM y a la Facultad de Ingeniería."
+  - text: "Tenemos como visión ser la asociación que posicione a los estudiantes de la UNAM a la vanguardia tecnológica y científica de la Inteligencia Artificial formando universitarios altamente capacitados en esta área para la inserción laboral o académica."
+  - text: "El objetivo de SIAFI es Difundir las aplicaciones de la Inteligencia Artificial dando soluciones a problemas ingenieriles, científicos y sociales contribuyendo así al desarrollo tecnológico de la UNAM y del país."
+  - text: "Estamos ubicados en Ciudad Universitaria (UNAM), Facultad de Ingeniería en el edificio X."
+  - text: "Puedes encontrarnos en las siguientes redes sociales: 
+  	   - Facebook: @UNAM.SIAFI
+  	   - Instagram: @unam.siafi"
+  - text: "SIAFI está organizado en tres secciones: proyectos, organización y difusión."
+  - text: "La página oficial de SIAFI es https://www.facebook.com/UNAM.SIAFI"
+
+  utter_saludo:
+  - text: "Hola, ¿Qué tal? Soy el bot de SIAFI, ¿En qué te puedo ayudar hoy?"
+  - text: "Hola, no es ninguna molestia. Soy el bot de SIAFI, ¿en qué te puedo ayudar?"
+  - text: "Buenos días, ¿Qué tal? Soy el bot de SIAFI, ¿En qué te puedo ayudar hoy?"
+  - text: "Buenas tardes, ¿Qué tal? Soy el bot de SIAFI, ¿En qué te puedo ayudar hoy?"
+  - text: "Buenas, ¿Qué tal? Soy el bot de SIAFI, ¿En qué te puedo ayudar hoy?"
+  - text: "¿Qué tal? ¿Cómo puedo ayudarte?"
+  - text: "Hola, soy un chatbot y te puedo ayudar con lo que necesites."
+  - text: "Hola, ¿Qué tal? Soy el bot de SIAFI, ¿En qué te puedo ayudar hoy?"
+  - text: "Buenas noches, ¿Qué tal? Soy el bot de SIAFI, ¿En qué te puedo ayudar hoy?"
+  - text: "¿Qué tal? Soy el bot de SIAFI, ¿en qué te puedo ayudar?"
+  - text: "Hola! estoy para servir, dime."
+  - text: "Hola, soy el bot de SIAFI, cuéntame tus dudas"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

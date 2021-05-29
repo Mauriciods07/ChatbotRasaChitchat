@@ -46,6 +46,26 @@ nlu:
     - hasta pronto
     - ahí nos vemos
     - adios
+    - entendido, estare al pendiente, gracias
+    - Va, muchas gracias.
+    - gracias :')
+    - Gracias :D
+    - Perfecto, no hay ningún problema, muchas gracias!
+    - Thx
+    - Muchas gracias por su respuesta :D
+    - Excelente! Me prepararé!
+    - Excelente! Muchas gracias!
+    - ay, muchas gracias! perdón por las molestias, es que realmente me interesa participar :3 muchas gracias!
+    - Muchas gracias! Si, ya realice mi registro hace unas pocas horas
+    - Gracias por compartir y sumarse a esta gran iniciativa! Vamos a romperla juntos 🚀🛰️🇲🇽
+    - Estoy al pendiente de las publicaciones, gracias.
+    - Muchísimas gracias. 
+    - Estaré revisando de cerca la posibilidad de formar parte de su equipo.
+    - Saludos y excelente noche.
+    - Fue increíble!!
+    - Muchas gracias por la oportunidad, sigamos juntos!! 💙
+    - Muchas gracias amigos
+    - Les agradezco mucho por la información. Espero pertenecer a su organización el siguiente semestre
 
 - intent: gracias
   examples: |
@@ -54,6 +74,17 @@ nlu:
     - de acuerdo
     - esta bien
     - me parece bien
+    - Va, muchas gracias.
+    - gracias :joy:
+    - Gracias :smile:
+    - Muchas gracias por su respuesta :smile:
+    - Excelente! Muchas gracias!
+    - Estoy al pendiente de las publicaciones, gracias.
+    - Muchas gracias por la oportunidad, sigamos juntos!! :blue_heart:
+    - Muchas gracias amigos
+    - Muchísimas gracias. 
+    - ay, muchas gracias! perdón por las molestias, es que realmente me interesa participar :3 muchas gracias!
+    - Perfecto, no hay ningún problema, muchas gracias!
 
 - intent: negar
   examples: |
@@ -107,14 +138,14 @@ nlu:
 
 - intent: chitchat/requisito
   examples: |
-    - Buen día. ¿Cómo puedo formar parte de esta sociedad?
-    - Hola, buenos días. Tengo una duda con respecto a su organización, ¿qué beneficios y obligaciones hay al momentos de ingresar?
+    - ¿Cómo puedo formar parte de esta sociedad?
+    - Tengo una duda con respecto a su organización, ¿qué beneficios y obligaciones hay al momentos de ingresar?
     - Y en caso de ser aceptado que papel se adopta dentro de esta organización, por ejemplo; te encargas de ayudar con las conferencias, participas en los proyectos, colaboradoras en la difusión, etc.
-    - Hola 🙂 Soy estudiante de la lic. de Física, tengo conocimientos básicos sobre la IA. Quería preguntar sobre el reclutamiento que están haciendo, dado que también tengo un trabajo de medio tiempo, quisiera saber si tienen horarios fijos en dónde se reúnen, o cuáles son los planes de trabajo en los proyectos que mencionan en los videos. Gracias
-    - Buenas noches, me interesa el proyecto de la sociedad de inteligencia artificial, que necesito para ser parte de ella?
+    - 🙂 Soy estudiante de la lic. de Física, tengo conocimientos básicos sobre la IA. Quería preguntar sobre el reclutamiento que están haciendo, dado que también tengo un trabajo de medio tiempo, quisiera saber si tienen horarios fijos en dónde se reúnen, o cuáles son los planes de trabajo en los proyectos que mencionan en los videos. Gracias
+    - me interesa el proyecto de la sociedad de inteligencia artificial, que necesito para ser parte de ella?
     - excelente, muchas gracias! algún consejo para el reclutamiento? 
-    - Hola, soy estudiante de periodismo en la FCPyS, estoy interesada en participar, pero no sé si mi perfil está considerado.
-    - Hola, acabo de ver su convocatoria, cuáles son los requisitos de ingreso?
+    - soy estudiante de periodismo en la FCPyS, estoy interesada en participar, pero no sé si mi perfil está considerado.
+    - acabo de ver su convocatoria, cuáles son los requisitos de ingreso?
     - y sobre los requisitos?
     - y para entrar?
     - y para formar parte? qué hay que hacer?
@@ -124,8 +155,9 @@ nlu:
     - creo que no tengo tantos conocimientos en el area
     - Apenas voy en primer semestre y no sé si puedo entrar
     - no tuve buenos profesores y siento que mis conocimientos no son tan buenos
-    - hola, hay algún problema para ingresar si vengo de física
+    - hay algún problema para ingresar si vengo de física
     - estoy estudiando mi ultimo semestre de RI, no sé si sea un problema
+
 
 - intent: saludo
   examples: |
@@ -156,3 +188,433 @@ nlu:
     - ¿eres un humano?
     - estoy hablando con un bot?
     - estoy hablando con un humano?
+
+
+
+
+
+
+
+
+
+################################################################3###################
+
+- intent: administrador
+  examples: |
+    - Buenas tardes, me pregunto cuál es el link para la entrevista, creo que no lo mandaron y ya es mi turno :c Soy Carlos Giovanni Martínez Gutiérrez
+    - buenas tardes, disculpe, tengo una duda. Al terminar el forms para el reclutamiento, debo recibir alguna notificación al correo que registré? lo terminé hace unos días pero no me apareció ningún tipo de confirmación de que la encuesta fue contestada con exito por correo, me apareció la página de "finalizado" al final del registro pero nada por correo
+    - Quisiera hablar con un administrador
+    - No entiendí lo que dijiste
+    - ¿Eso qué tiene que ver?
+    - No entiendo
+    - No sé a qué te refieres
+    - ¿Me pueden ayudar?
+    - ¿Puedo hablar con alguien?
+    - Creo que es un error
+    - Eso no tiene sentido
+    - ¿Por qué dices eso?
+    - ¿Cómo?
+    - ¿Qué quisite decir?
+    - Eso no fue lo que pregunté
+    - Esa no era mi duda
+    - ¿Qué?
+    - ?
+    - Tengo un problema
+
+- intent: chitchat/aprender
+  examples: |
+    - Buenas tardes, estoy interesada en el código de la práctica que hicieron hoy en la "conferencia"
+    - ¿Dónde puedo aprender más?
+    - ¿Qué materiales sugieren?
+    - ¿Hay libros que pueda leer?
+    - ¿Cómo aprendo de esto?
+    - ¿Qué clases puedo tomar para aprender más?
+    - ¿Qué artículos puedo leer?
+    - ¿Qué materiales puedo estudiar?
+    - ¿Cómo puedo saber más?
+    - ¿Cuál es la bibliografía sugerida?
+    - ¿Tienen una lista de libros?
+    - ¿Qué puedo hacer para educarme?
+    - ¿De qué temas puedo estudiar?
+    - ¿En dónde encuentro libros para leer?
+    - ¿En dónde descargo artículos?
+    - ¿Pueden sugerir material para estudiar?
+    - ¿Cuáles son buenos libros para principiantes?
+    - ¿Qué puedo estudiar si quiero saber más?
+    - ¿Qué libros recomiendan?
+    - ¿Tienen recomendaciones de material educativo?
+    - ¿En dónde puedo estudiar más del tema?
+
+- intent: chitchat/contenido
+  examples: |
+    - me encanta su contenido
+    - como le hacen para generar tanto contenido?
+    - quienes son los encargados de generar contenido?
+    - El contenido lo generan ustedes?
+    - la pagina genera su propio contenido?
+    - creo que su pagina no tiene mucho contenido, será que pueda apoyar en esa área?
+    - adoro las publicaciones de la página, me parecen muy informativas, hay forma en que pueda apoyar?
+    - Tienen un grupo específico para las publicaciones o eso lo hace alguien a parte?
+    - soy diseñadora gráfica en proceso, he visto su contenido y creo que puedo aportar bastante a la página
+    - las personas que se dedican a generar las publicaciones, también administran la página?
+    - crees que haya lugar para que pueda entrar al grupo de las publicaciones?
+    - realmente amo el contenido de la página, hay forma en que pueda contribuir?
+    - el contenido de la pagina me parece bastante interesante
+    - cómo deciden qué publicar en la página?
+    - Las publicaciones las realizan cada día?
+    - estaría padre que hubiera más interacción en la página
+    - me preocupa que he visto menos interacción con la página
+    - creo que han disminuido las publicaciones diarias, sabes a qué se debe?
+    - antes publicaban más cosas
+
+
+
+- intent: duda
+  examples: |
+    - Tengo una pregunta
+    - Tengo una duda
+    - Una pregunta
+    - Una duda
+    - ¿Puedo hacer una pregunta?
+    - ¿Puedo hacer otra pregunta?
+    - Otra cosa
+    - Sólo una pregunta más
+    - Sólo una duda más
+    - Tengo una consulta
+    - Me quedé con una duda
+    - ¿Puedo preguntar algo?
+    - Quería preguntar algo
+    - Sólo por curiosidad
+    - Tengo una consulta
+    - No sé si me puedan responder
+    - Por cierto
+    - Hay algo más
+    - Quisiera saber
+
+- intent: chitchat/egresados
+  examples: |
+    - Muchas gracias, mi situación es que no pertenezco a la UNAM, en unos años me gustaría hacer un doctorado ahí. Pero sigo en esta parte de proyectos investigación y divulgación en IA y ciencia de datos.
+    - Soy egresado y me gustaría saber si puedo pertenecer a la sociedad
+    - Acabo de terminar mis materias de la facultad, ¿aún puedo pertenecer a la sociedad?
+    - Estoy haciendo un posgrado, pero ya terminé mis materias, ¿puedo pertenecer a la sociedad?
+    - Ya terminé las materias de mi carrera, ¿puedo pertenecer a la sociedad?
+    - Estoy haciendo la tesis, ¿puedo entrar a la sociedad?
+    - No estoy estudiano, ¿puedo entrar a la sociedad?
+    - No soy estudiante, ¿puedo entrar a la sociedad?
+    - Aún estoy en proceso de titulación, ¿puedo entrar a la sociedad?
+    - ¿Es necesario ser estudiante para entrar a la sociedad?
+    - Si soy egresado, ¿puedo entrar a la sociedad?
+    - Acabo de completar mis créditos, ¿puedo entrar a la sociedad?
+    - Ya terminé mis créditos y estoy haciendo la tesis, ¿puedo entrar a la sociedad?
+    - ¿Puedo pertenecer a la sociedad si no estudio en la UNAM?
+    - Estoy haciendo mi tesis, pero no soy de la UNAM, ¿puedo entrar a la sociedad?
+    - Si soy estudiante, pero no de la UNAM, ¿puedo entrar a la sociedad?
+    - Soy egresado y ya terminé mi tesis, ¿puedo entrar a la sociedad?
+    - Acabo de terminar mi última materia y voy a empezar mi tesis, ¿puedo entrar a la sociedad?
+    - El semestre pasado terminé los créditos, pero no estoy haciendo la tesis, ¿puedo entrar a la sociedad?
+
+- intent: chitchat/evento
+  examples: |
+    - Hola, solo para saber en donde le doy para registrarme a la conferencia de WAVY
+    - ¿Realizarán algún evento próximamente?
+    - ¿Hacen pláticas?
+    - ¿Cuándo es el siguiente evento?
+    - ¿Tienen algo planeado en los siguientes días?
+    - ¿Qué eventos realiza la asociación?
+    - ¿Cuáles son las actividades abiertas al público?
+    - ¿Tienen actividades de difusión?
+    - ¿A qué actividades puedo asistir?
+    - ¿Cómo conectan con el público en general?
+    - ¿Hay conferencias?
+    - ¿Cómo son las conferencias?
+    - ¿Qué conferencias van a hacer?
+    - Quiero una lista de platicas
+    - ¿Qué actividades realizan en la asociación?
+    - Quiero asistir a un evento
+    - ¿Hay seminarios?
+    - ¿Qué eventos hacen?
+    - ¿En qué fechas son las pláticas?
+    - ¿Dónde puedo consultar su calendario de pláticas?
+
+- intent: chitchat/experiencia
+  examples: |
+    - Buenas noches. He visto su convocatoria de reclutamiento, ¿Están buscando gente que ya tenga experiencia o conocimiento previo sobre IA o alguno de sus subcampos?  
+    - Cabe señalar que estoy apunto de cursar el 6to semestre de la carrera y en el siguiente semestre tengo contemplado estudiar IA como asignatura.
+    - Ya tengo una especialización en Deep Learning, necesito algo más?
+    - No tengo conocimiento alguno de Inteligencia Artificial, puedo aprender con ustedes?
+    - ¿Ustedes enseñan programación para inteligencia artificial?
+    - ¿Puedo trabajar con ustedes si solo sé lo básico de Inteligenicia Artificial?
+    - ¿Qué lenguaje de programación se necesita para Inteligencia Artificial?
+    - ¿Qué experiencia buscan para el reclutamiento?
+    - No tengo experiencia en Inteligencia Artificial, pero sé programar, puedo ser parte de la sociedad?
+    - Puedo participar en el reclutamiento si sé programación básica?
+    - Me interesa mucho la inteligencia artificial pero no sé programar ¿Ustedes me pueden enseñar?
+    - Quiero participar en el reclutamiento ¿Qué requisitos se necesitan?
+    - Quiero ser parte de la sociedad ¿Debo tener conocimientos previos?
+    - Qué conocimientos debo tener para trabajar con ustedes?
+    - Llevé un semestre de Inteligencia Artificial ¿Es suficiente?
+    - Qué matemáticas necesito para unirme a ustedes?
+    - Voy en primer semestre y apenas voy aprendiendo
+    - No estudio en ingenieria ¿Puedo estar en el reclutamiento?
+    - ¿Puedo ser reclutado si no tengo bases en IA?
+    - Solo sé la teoría en redes neuronales ¿Necesito algo más?
+
+- intent: chitchat/felicitación
+  examples: |
+    - Los quiero felicitar por la divulgación que realizan
+    - Les mando una felicitación por su gran trabajo
+    - Felicidades por su labor social.
+    - Los quería felicitar por sus infografías
+    - Que buena conferencia, felicidades
+    - Me encantó su trabajo, felicidades, sigan así
+    - Felicitaciones por su gran labor
+    - Buen trabajo, felicidades
+    - Me gusta el trabajo en difusión que realizan, felicidades
+    - Felicitaciones, sigan trabajando así.
+    - Me gusta su contenido, felicidades
+    - Muchas gracias, me han hecho enamorarme de la Inteligencia Artificial
+    - Me encanta su contenido
+    - Que buenas infografías
+    - Soy fan de su trabajo
+    - Me encantan sus proyectos 
+    - Creo que tienen una gran organización y mucho por lograr
+    - Realmente me impresiona todo lo que hacen!!
+    - me parecen geniales todos sus proyectos
+    - Me da muchísimo gusto que estén impulsando nuevos proyectos!
+
+- intent: chitchat/habilidades
+  examples: |
+    - Además, ¿Qué conocimientos o habilidades técnicas o téoricas podrían considerar ustedes deseables para un integrante de su equipo de trabajo? 
+    - ¿Necesito tener alguna habilidad o habilidades en especial?
+    - ¿Cuáles habilidades consideran necesarias para este trabajo?
+    - ¿Requieren que tenga alguna habilidad para entrar a la sociedad?
+    - Cursé una materia de IA en la facultad, ¿necesito alguna habilidad o conocimiento?
+    - Me estoy adentrando en el mundo de la IA, ¿hay algo en específico que deba aprender?
+    - Quisiera comenzar a aprender acerca de IA para entrar, ¿hay algo que deba aprender?
+    - Tengo algunas habilidades en este campo, pero me gustaría saber, ¿piden algo en específico para entrar?
+    - ¿Qué necesito para entrar?
+    - Sugieren tener alguna habilidad para entrar a la sociedad
+    - ¿Debemos aprender algo para poder entrar?
+    - ¿Qué necesito para el núcleo de organización?
+    - ¿Para ingresar a organización?
+    - ¿Qué necesito para el núcleo de difusión?
+    - ¿Para ingresar a difusión?
+    - ¿Qué necesito para el núcleo de proyectos?
+    - ¿Para ingresar a proyectos?
+    - ¿Núcleos?
+    - ¿Cuáles son los núcleos?
+
+- intent: chitchat/interés
+  examples: |
+    - Si tengo mucho interés por el campo. He estudiado mucho por mi cuenta
+    - siempre he tenido mucho interés en el area, pero nunca había tenido una oportunidad
+    - sí me llama la atención, pero no se aun
+    - ohh suena interesante
+    - mmm son proyectos bastante interesantes
+    - vaya, sí que tienen bastantes cosas interesantes
+    - Todos sus trabajos se ven bastante llamativos
+    - me encanta su contenido, bastante interesante
+    - rayos, es que sí me causa bastante interés, pero no creo estar preparado
+    - tengo un amigo de la FI que podría estar interesado
+    - pues sí, la verdad sí me interesa
+    - mmm sí estaría interesado, pero yo creo que en la siguiente convocatoria
+    - me interesa, pero me preocupan los tiempos
+    - sí, creo que me interesa participar en el área de marketing
+    - Me interesa, pero tengo los fines ocupados
+    - asumakina! bastante interesante
+    - creo que el proyecto que más me interesa es el del chatbot
+    - el del chatbot me llamó la atención
+    - leí la convocatoria y la verdad me llamó la atención
+
+- intent: chitchat/miembros
+  examples: |
+    - ¿Qué realizan los miembros de la asociacion?
+    - ¿Cómo puedo convertirme en miembro?
+    - ¿Qué hacen los miembros de proyectos?
+    - ¿Qué actividades realizan los miembros de difusión?
+    - ¿Cuales son las tareas de los miembros en organización? 
+    - ¿Con cuántos miembros cuenta SIAFI?
+    - ¿Aún puedo convertirme en miembro?
+    - ¿Existe algún reclutamiento para convertirme en miembro?
+    - ¿Debo de ser de la Facultad de Ingeniería para ser miembro de SIAFI?
+    - ¿Necesito estar estuadiando en la FI para convertirrme en miembro de la Asociasión?
+    - ¿Que conocimientos de Inteligencia Artificial requieren los miembros?
+    - Soy estudiante de otra facultad ¿Puedo convertirme en miembro?
+    - ¿Puedo ser miembro si estudio en otra universidad?
+    - Estoy en primer semestre de Economía, puedo ser miembro?
+    - ¿Puedo ser miembro si no sé nada de Inteligencia Artificial?
+    - ¿Puedo ser miembro si soy profesor?
+    - ¿Los miembros deben de ser ingenieros?
+    - ¿Qué debo hacer para convertirme en miembro?
+    - ¿Puedo ser miembro si no soy de la UNAM?
+
+- intent: chitchat/proyectos
+  examples: |
+    - ¿Qué proyectos hacen en la asociación?
+    - ¿Qué actividades realizan?
+    - ¿Qué es lo que hacen?
+    - ¿Qué han construido?
+    - ¿Hacen proyectos de programación?
+    - ¿Qué han hecho en la asociación?
+    - ¿Han logrado algo importante?
+    - ¿Qué proyectos han desarrollado en la sociedad?
+    - ¿Dónde puedo ver los proyectos que han hecho?
+    - ¿Qué es lo que han creado?
+    - ¿En qué están trabajando ahora?
+    - ¿Qué han desarrollado en la sociedad?
+    - ¿Han diseñado algo útil?
+    - ¿Han hecho algún proyecto interesante?
+    - ¿Qué han diseñado?
+    - ¿En qué han trabajado?
+    - ¿Qué han creado?
+    - ¿Han producido algo importante?
+    - ¿En qué proyectos están trabajando ahora?
+    - ¿Está trabajando la asociación en algún proyecto
+    - ¿Cuál es su proyecto más importate?
+
+- intent: chitchat/reclutamiento
+  examples: |
+    - ¿Tendrán reclutamiento próximamente?
+    - Revise el contenido de su página y me parecen muy interesantes los proyectos que desarrollan. Me gustaría participar en un futuro (tengo entendido que por el momento ya cerraron el sistema para el reclutamiento) y me gustaría saber que requisitos hay para entrar (horarios, créditos, etc.) 
+    - siguen buscando personas?
+    - siguen buscando personas?
+    - Cómo me puedo registrar?
+    - tienes la liga de registro?
+    - cuales son las fechas para ingresar?
+    - cuál es el ultimo día de registro?
+    - A partir de que día me puedo registrar?
+    - El reclutamiento se hace mensualmente?
+    - me puedes proporcionar el link para entrar?
+    - puedo entrar el siguiente semestre?
+    - ya pasó el período de registro?
+    - aún me puedo registrar para el reclutamiento?
+    - hay un límite de horario para el período de reclutamiento?
+    - tengo un problema, parece que el enlace que tengo para registrarme está mal, puedes enviarme el correcto?
+    - oye, acabo de ver la convocatoria y me interesa ingresar, cuándo son las fechas de registro?
+    - aun estoy a tiempo para el reclutamiento?
+    - Hola, quisiera formar parte de SIAFI, qué necesito hacer?
+    - estaba viendo en la convocatoria las fechas de reclutamiento, son correctas?
+
+- intent: chitchat/registro
+  examples: |
+    - si no tengo celular le pongo puros ceros al numero que me piden en el registro??
+    - ¿Dónde puedo registrarme?
+    - ¿Qué tengo que hacer para el registro?
+    - ¿En dónde puedo registrarme?
+    - ¿Cómo me registro?
+    - Necesito ayuda con el registro
+    - ¿Cuál es el link de registro?
+    - ¿Cuál es la liga para registrarme?
+    - ¿Qué información necesito para hacer el registro?
+    - No me deja registrarme
+    - No puedo hacer mi registro
+    - Quiero información del registro
+    - ¿Dónde está la página de registro?
+    - ¿Tengo que registrarme?
+
+- intent: chitchat/siafi
+  examples: |
+    - ¿cómo puedo pertenecer a SIAFI?
+    - ¿qué es SIAFI?
+    - ¿cuándo inició SIAFI?
+    - ¿qué conocimiento necesito para pertener a SIAFI?
+    - ¿cuáles talleres o cursos ofrece siafi?
+    - ¿quienes son los miembros de SIAFI?
+    - ¿que beneficios obtengo al pertener a SIAFI?
+    - ¿que proyectos ha desarrollado SIAFI?
+    - ¿a quién va dirigido SIAFI?
+    - ¿quienes son los responsables de SIAFI?
+    - ¿qué significa SIAFI?
+    - ¿cuál es la misión de SIAFI?
+    - ¿cuál es la visión de SIAFI?
+    - ¿cuál es el objetivo de SIAFI?
+    - ¿dónde está ubicado siafi?
+    - ¿cuáles son las redes sociales de SIAFI?
+    - ¿cómo está conformado SIAFI?
+    - ¿Cuál es la página oficial de SIAFI?
+
+- intent: saludo
+  examples: |
+    - Disculpa la molestia
+    - Buen día
+    - Buena tarde
+    - buenas
+    - Buenos días
+    - Buenas tardes
+    - Buenas noches
+    - Que tal
+    - Hola, chicos
+    - buena noche
+    - hey dude!
+    - wenas
+    - ammm hola?
+    - Hola, soy Anita
+    - Disculpa
+    - Hola!
+    - Oye
+    - Qué onda!
+    - Hey!
+    - Me da gusto saludarlos
+
+- intent: saludo+reclutamiento
+  examples: |
+    - hola
+    - Hola, habrá reclutamiento próximamente?
+    - hola, siguen buscando personas?
+    - hola, buen día, todavía buscan personas?
+    - hola Buenas tardes, podrían decirme cómo puedo registrar?
+    - Disculpa, me puedes pasar liga de registro?
+    - wenas, cuales son las fechas para ingresar?
+    - que tal, cuál es el ultimo día de registro?
+    - Buenas noches, a partir de que día me puedo registrar?
+    - Hola, soy Anita, el reclutamiento se hace mensualmente?
+    - hola Disculpa la molestia, me puedes proporcionar el link para entrar?
+    - hola, chicos, puedo entrar el siguiente semestre?
+    - buenas, ya pasó el período de registro?
+    - hola oye, aún me puedo registrar para el reclutamiento?
+    - buenos días, disculpen, hay un límite de horario para el período de reclutamiento?
+    - buenos días, tengo un problema, parece que el enlace que tengo para registrarme está mal, puedes enviarme el correcto?
+    - oye, acabo de ver la convocatoria y me interesa ingresar, cuándo son las fechas de registro?
+    - wenas, aun estoy a tiempo para el reclutamiento?
+    - Hola, quisiera formar parte de SIAFI, qué necesito hacer?
+    - que tal, estaba viendo en la convocatoria las fechas de reclutamiento, son correctas?
+
+- intent: saludo+registro
+  examples: |
+    - hola
+    - hola, si no tengo celular le pongo puros ceros al numero que me piden en el registro??
+    - hola buenos días, ¿dónde puedo registrarme?
+    - hola, ¿qué tengo que hacer para el registro?
+    - wenas, ¿en dónde puedo registrarme?
+    - hola buenas tardes, ¿cómo me registro?
+    - oye, necesito ayuda con el registro
+    - disculpa, ¿cuál es el link de registro?
+    - hola buenas noches, ¿cuál es la liga para registrarme?
+    - hola, soy Anita, ¿qué información necesito para hacer el registro?
+    - disculpa, no me deja registrarme
+    - disculpa, no puedo hacer mi registro
+    - hola, chicos, quiero información del registro
+    - hola, ¿dónde está la página de registro?
+    - buena tarde, ¿tengo que registrarme?
+
+- intent: saludo+requisito
+  examples: |
+    - hola
+    - Buen día. ¿Cómo puedo formar parte de esta sociedad?
+    - Hola, buenos días. Tengo una duda con respecto a su organización, ¿qué beneficios y obligaciones hay al momentos de ingresar?
+    - disculpa, en caso de ser aceptado que papel se adopta dentro de esta organización, por ejemplo; te encargas de ayudar con las conferencias, participas en los proyectos, colaboradoras en la difusión, etc.
+    - Hola 🙂 Soy estudiante de la lic. de Física, tengo conocimientos básicos sobre la IA. Quería preguntar sobre el reclutamiento que están haciendo, dado que también tengo un trabajo de medio tiempo, quisiera saber si tienen horarios fijos en dónde se reúnen, o cuáles son los planes de trabajo en los proyectos que mencionan en los videos. Gracias
+    - Buenas noches, me interesa el proyecto de la sociedad de inteligencia artificial, que necesito para ser parte de ella?
+    - Hola, soy estudiante de periodismo en la FCPyS, estoy interesada en participar, pero no sé si mi perfil está considerado.
+    - Hola, acabo de ver su convocatoria, cuáles son los requisitos de ingreso?
+    - disculpa, y sobre los requisitos?
+    - hola, oye, y para entrar?
+    - oye, y para formar parte? qué hay que hacer?
+    - hola, wenas, suena bien, crees que me pudieras proporcionar los requisitos de ingreso?
+    - buenos días, la verdad no lo sé, pero de momento estaría bien si me puedes indicar qué necesito para entrar
+    - disculpa, la verdad sí estoy algo dudoso, no sé si cumplo con lo necesario
+    - hola, buena noche, creo que no tengo tantos conocimientos en el area
+    - hola, que tal, apenas voy en primer semestre y no sé si puedo entrar
+    - que tal, no tuve buenos profesores y siento que mis conocimientos no son tan buenos
+    - hola, hay algún problema para ingresar si vengo de física
+    - buenas tardes, estoy estudiando mi ultimo semestre de RI, no sé si sea un problema
